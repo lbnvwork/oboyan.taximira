@@ -1,0 +1,26 @@
+<div class="menu-top-gleb">
+    <a href="/"></a>
+    <p class="over-text-gleb">
+        <a class="db" href="/"><img src="/assets/images/logo-mins2.png" alt="Logo Taxi MIRA"/></a>
+        <a href="tel:{{orderPhoneBottom}}">
+            <span class=" db phone_icon text-orange icons">&#xe802;</span>
+            <span class="phone_light">{{orderPhoneTop['rightPart']}}</span>
+        </a>
+    </p>
+    <span class="menu-button" title="menu">
+            <span class="line-gleb"></span>
+            <span class="line-gleb"></span>
+            <span class="line-gleb"></span>
+        </span>
+</div>
+<div class="left-fixed-gleb">
+    <div class="scroll-gleb">
+        <ul class="menu-gleb">
+            {% for menuItem in mainMenu %}
+            <li>
+                <a href="/{{menuItem.value}}" class="aside-menu__link">{{menuItem.caption}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

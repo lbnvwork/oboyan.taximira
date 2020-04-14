@@ -1,0 +1,16 @@
+{
+    "require": {
+      "doctrine/orm": "^2.7.0",
+      "twig/twig": "~2.0",
+        "delight-im/auth": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+             "Core\\": "Core/",
+             "App\\": "App/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    }
+}

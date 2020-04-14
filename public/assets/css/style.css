@@ -1,0 +1,3172 @@
+
+.table-value__col {
+    color: rgb(238, 243, 0);
+}
+
+header {
+    height: 90px;
+}
+
+.logo img {
+    width: auto;
+}
+
+#nepokaz {
+    display: none;
+}
+
+#intro {
+    height: auto;
+    background: url(/assets/images/oboyan.jpeg) no-repeat 50% 70%;
+    /*padding-bottom: 20px;*/
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/*#intro:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    background: rgba(0,0,0,.2);*/
+/*    z-index: 1;*/
+/*}*/
+
+.inner {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    /*padding: 50px;*/
+}
+
+#taxsee-form body.bordered .order-form-frame {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+#taxsee-form {
+}
+
+.image-cover.logo-2 {
+    position: absolute;
+    top: calc(100% - 95.5%);
+    right: 7%;
+    width: 36%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.image-cover.logo-2 img {
+    width: 100%;
+}
+
+#intro h1 {
+    padding-top: 50px;
+    width: 50%;
+    color: #fff;
+    font-size: 50px;
+    font-family: FSElliotPro;
+    font-weight: bold;
+    text-transform: initial;
+}
+
+@media only screen and (max-width: 1360px), only screen and (max-device-width: 1360px) {
+}
+
+@media only screen and (max-width: 1280px), only screen and (max-device-width: 1280px) {
+    .image-cover.logo-2 {
+        top: calc(100% - 91.5%);
+    }
+
+    #intro h1 {
+        width: 40%;
+        font-size: 200%;
+    }
+
+    .takeTaxi {
+        width: 35%;
+    }
+
+    .wrapper-right-intro-block {
+        width: 61%;
+    }
+}
+
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+    .icons {
+        font-size: 12px;
+    }
+
+    .phone_light {
+        font-size: 14px;
+    }
+}
+
+.image-cover.logo-2 {
+    right: 6%;
+    width: 30%;
+}
+
+}
+@media only screen and (max-width: 1020px), only screen and (max-device-width: 1020px) {
+    .takeTaxi {
+        width: 500px;
+    }
+
+    .wrapper-right-intro-block {
+        width: 90%;
+    }
+}
+
+@media (max-width: 748px) {
+    #intro .wrapper {
+        background: none;
+    }
+
+    .takeTaxi {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+    .image-cover.logo-2 {
+        position: absolute;
+        right: 7%;
+        width: 36%;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+    }
+
+    #intro h2 {
+        font-size: 220%;
+    }
+}
+
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+    #intro{
+        -webkit-box-shadow: inset 20px 85px 85px rgba(0,0,0,0.4);
+        -moz-box-shadow: inset 20px 85px 85px rgba(0,0,0,0.4);
+        box-shadow: inset 20px 85px 85px rgba(0,0,0,0.4);
+        background: url(/assets/images/oboyan.jpeg) no-repeat 76% 70%;
+    }
+
+    #intro h1 {
+        width: 100%;
+
+    }
+
+    #intro .wrapper {
+    }
+
+    .image-cover.logo-2 {
+        top: calc(100% - 93.5%);
+        right: calc(50% - 19%);
+        width: 36%;
+        z-index: 2;
+    }
+
+    .grey-table > .tarif:nth-child(1) {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+    .image-cover.logo-2 {
+        top: calc(100% - 93.5%);
+        right: calc(50% - 38%);
+        width: 70%;
+        z-index: 2;
+    }
+
+    #intro h1 {
+        width: 100%;
+    }
+}
+
+.title a {
+    color: #fff;
+    border-radius: 40px;
+    width: 165px;
+    font-weight: bolder;
+}
+.title strong{
+    text-transform: uppercase;
+}
+.takeTaxi {
+    display: inline-block;
+}
+
+.Mobmenu__link_active {
+    color: #ca14c5 !important;
+    border-bottom: 2px solid #ca14c5;
+}
+
+.r1280, .r1279 {
+    display: none;
+}
+
+body {
+    padding-top: 0px;
+}
+
+header {
+    position: relative;
+    top: inherit;
+}
+
+.grey-table_intro {
+    background-color: rgb(255, 255, 255, 0.72);
+}
+
+#intro h1, #intro .h1, .table-title {
+    color: rgb(238, 243, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.prozr {
+    background: #fff;
+}
+
+.opis-white {
+    color: #fff;
+}
+
+#intro h1 {
+    width: 100%;
+    font-size: 250%;
+}
+
+.menu-top-gleb .phone_light {
+    font-size: 4vw;
+}
+
+@media (min-width: 749px) {
+    .menu-top-gleb, .left-fixed-gleb {
+        display: none;
+    }
+}
+
+.otherr {
+    padding-top: 50px;
+}
+
+@media (min-width: 1280px) {
+    .prozr {
+        background: rgb(255, 255, 255, 0.95)
+    }
+
+    .phone_light {
+        font-size: 24px;
+    }
+
+    .city {
+        display: none;
+    }
+
+    header {
+        height: 90px;
+    }
+
+    .r1280 {
+        display: block;
+    }
+
+    .logo img {
+        width: auto;
+        height: 80px;
+    }
+
+    nav, nav li {
+        display: inline-block;
+        padding: 0px 8px;
+        font-size: 20px;
+    }
+
+    .phone_icon {
+        -moz-transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    .phone_icon:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    header {
+        /* height: 130px;*/
+        position: fixed;
+        width: 100%;
+        z-index: 9000;
+        background: #fff;
+        top: 0px;
+    }
+
+    body {
+        padding-top: 90px;
+    }
+}
+
+.phone_light {
+    color: #ca14c5;
+    font-weight: bold;
+}
+
+
+.additional-services, .about-prices, .customers-appreciate {
+    margin-bottom: 60px;
+    padding: 40px 0px 0px;
+    text-align: center;
+}
+
+.additional-services h2, .about-prices h2, .customers-appreciate h2 {
+    margin-bottom: 50px;
+    text-align: center;
+
+    width: auto;
+
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.customers-appreciate {
+    margin-bottom: 0;
+}
+
+#order h2, #order h3 {
+    text-align: center;
+    width: auto;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+#order {
+    padding-top: 100px;
+}
+
+
+.additional-services .additional-services-item, .customers-appreciate .customers-appreciate-item {
+    display: inline-block;
+    margin-left: 39px;
+    margin-bottom: 55px;
+    width: 260px;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+.additional-services .additional-services-item {
+    margin-bottom: 0px;
+}
+
+
+.additional-services .additional-services-item.first-child, .customers-appreciate .customers-appreciate-item.first-child {
+    margin-left: 0px;
+}
+
+.additional-services .additional-services-item .wr-icon, .customers-appreciate .customers-appreciate-item .wr-icon {
+    display: inline-block;
+    width: 61px;
+    line-height: 61px;
+}
+
+.additional-services .additional-services-item .wr-icon img, .customers-appreciate .customers-appreciate-item .wr-icon img {
+    vertical-align: middle;
+}
+
+.additional-services .additional-services-item .item-content, .customers-appreciate .customers-appreciate-item .item-content {
+    margin-top: 2px;
+}
+
+.additional-services .additional-services-item .item-content .name, .customers-appreciate .customers-appreciate-item .item-content .name {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #415660;
+    letter-spacing: 0.75px;
+    font-family: FSElliotPro;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.additional-services .additional-services-item .item-content .text, .about-prices .about-prices-item .item-content p, .customers-appreciate .customers-appreciate-item .item-content .text {
+    color: #202020;
+    letter-spacing: 0.75px;
+}
+
+
+.probeg h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+    color: #c309d9;
+}
+
+.probeg tr td:nth-child(2) {
+    padding-left: 5px;
+    border-left: 1px solid #ff01f1;
+}
+
+.county-city {
+    display: none;
+}
+
+@media (max-width: 1279px) {
+    .r1279 {
+        display: block;
+    }
+}
+
+@media (max-width: 748px) {
+    .left-fixed-gleb {
+        top: 75px;
+    }
+
+    .menu-button .line-gleb {
+        background: #000;
+    }
+
+    .car-wrapper {
+        display: none;
+    }
+
+    .db img {
+        height: 55px;
+        height: 65px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin-left: -20px;
+    }
+
+    .db img {
+        height: 65px;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    .menu-top-gleb .menu-button {
+        margin-top: 5px;
+    }
+
+    #nepokaz {
+    }
+
+    #nepokaz img {
+    }
+
+    .db { /*display:inline-block; vertical-align:middle;*/
+    }
+
+    .wrapper {
+        width: 95%;
+        min-width: 400px;
+    }
+
+    .table-title {
+        text-align: center;
+        font-size: 32px;
+        line-height: 36px;
+
+    }
+
+    .wrapper-right-intro-block {
+        overflow: inherit;
+    }
+}
+
+.opis {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 554px) {
+    .menu-top-gleb {
+        padding-left: 5px;
+        font-size: 3vw;
+    }
+
+    #intro h1, #intro .h1 {
+        font-size: 200% !important;
+        margin-top: 40px;
+    }
+
+    .opis {
+        font-size: 18px;
+    }
+
+    p.over-text-gleb .phone_icon {
+        font-size: 18px;
+    }
+
+    .menu-top-gleb .phone_light {
+        font-size: 5vw;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .wrapper {
+        width: 300px;
+        min-width: inherit;
+    }
+}
+
+.menu-top-gleb {
+    background: #fff;
+}
+
+#krasota {
+    width: 100%;
+    background: url(/assets/images/noice.jpg) repeat;
+    padding-bottom: 10px;
+    padding-top: 1px;
+}
+
+.city-bg {
+    width: 100%;
+}
+
+@media (max-width: 1280px) {
+    .car-main {
+        left: 0px;
+    }
+}
+
+footer {
+    background: #f3f2f3;
+    overflow: hidden;
+}
+
+#navigation_bot.navigation a, #navigation_bot.navigation span, #navigation_bot.navigation h1 {
+    color: rgb(0, 0, 0) !important;
+}
+
+.cnt {
+    text-align: center;
+}
+
+@media (max-width: 360px) {
+    p.over-text-gleb .phone_icon {
+        font-size: 15px;
+    }
+}
+
+.sml { /*/font-size:0.8em;/*/
+}
+
+.menu-top-gleb {
+    height: 75px;
+    line-height: 55px;
+    z-index: 9999;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+
+    /*Преимущества*/
+    .advantages {
+        padding-bottom: 30px;
+    }
+
+    .advantages h2 {
+        font-size: 18px;
+    }
+
+    .advantages .item {
+        margin: 40px 0px 0px 13px;
+        width: 131px;
+    }
+
+    .advantages .item.first-child {
+        margin-left: 0px;
+    }
+
+    .advantages .item .wr-icon {
+        margin-bottom: 15px;
+        height: 42px;
+        line-height: 42px;
+    }
+
+    .advantages .item .wr-icon img {
+        max-width: 42px;
+        max-height: 42px;
+    }
+
+    .advantages .item p {
+    }
+
+    /*-----Преимущества-----*/
+    /*Заявка*/
+    .application {
+        padding: 30px 0px 0px;
+    }
+
+    .application h2 {
+        font-size: 18px;
+    }
+
+    .application p {
+        margin-top: 7px;
+
+    }
+
+    .application .wr-input select {
+        margin: 25px 0px 33px;
+    }
+
+    .application .wr-input {
+        width: 350px;
+    }
+
+    .application .wr-input + .wr-input {
+        margin: 90px 0px 0px 19px;
+    }
+
+    .application .wr-input.wr-input-edit {
+        margin-top: 0px;
+    }
+
+    .application .wr-input input[type="text"] {
+        width: 310px;
+        height: 27px;
+
+    }
+
+    .application .wr-input input[type="text"] + input[type="text"] {
+        margin-top: 20px;
+    }
+
+    .application .wr-input .input-edit {
+        font-size: 11px !important;
+        width: 126px !important;
+    }
+
+    .application .wr-input .input-edit + .input-edit {
+        margin-left: 9px !important;
+    }
+
+    .application .wr-input .wr-checkbox {
+        margin: 12px 0px 13px;
+    }
+
+    .application .wr-input .wr-checkbox-edit {
+        margin: 12px 0px 13px;
+    }
+
+    .application .wr-input .wr-checkbox-edit .wr-label-edit {
+        margin-left: 21px;
+    }
+
+    .application .wr-input .wr-label + .wr-label {
+        margin-top: 0px;
+    }
+
+    .application .wr-input input[type="checkbox"] + label {
+        margin-bottom: 10px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .application .wr-input input[type="checkbox"] + span {
+        width: 12px;
+        height: 12px;
+        background-size: 11px;
+    }
+
+    .application .wr-input input[type="checkbox"]:checked + span {
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/on.png") no-repeat;
+        background-size: 11px;
+    }
+
+    .application .wr-input label p {
+        margin-left: 6px;
+
+    }
+
+    .application textarea {
+        margin-top: 20px;
+        width: 480px;
+        height: 85px;
+
+    }
+
+    .application input[type="submit"] {
+        margin: 60px 0px 0px 20px;
+        height: 30px;
+        width: 155px;
+
+    }
+
+    .review-form {
+        padding: 0px 0px 40px;
+    }
+
+    .review-form h2 {
+        margin-bottom: 15px;
+    }
+
+    .review-form p {
+        margin: 13px 0px 4px;
+    }
+
+    .review-form .feedback span {
+        display: block;
+        width: 505px;
+
+    }
+
+    .review-form .feedback {
+        margin-bottom: 10px;
+
+    }
+
+    .review-form textarea {
+        padding: 10px;
+        margin-top: 6px;
+        height: 60px;
+        width: 329px;
+    }
+
+    .review-form input[type="submit"] {
+        margin: 37px 0px 0px 20px;
+    }
+
+    .application-contacts .feedback {
+        margin-bottom: 20px;
+    }
+
+    .application-contacts p {
+        margin-top: 20px;
+
+    }
+
+    .application-contacts .wr-input input[type="text"] {
+        width: 308px;
+        height: 40px;
+
+    }
+
+    .application-contacts textarea {
+        padding: 10px 20px;
+        margin-top: 0px;
+        width: 309px;
+        height: 114px;
+
+    }
+
+    .application-contacts input[type="submit"] {
+        margin: 52px 0px 0px 0px;
+        width: 208px;
+        height: 40px;
+
+    }
+
+    /*-----Заявка-----*/
+    /*Условия Работы*/
+    .conditions {
+        padding-bottom: 35px;
+    }
+
+    .conditions h2 {
+        font-size: 18px;
+    }
+
+    .conditions .working-conditions {
+        margin-top: 20px;
+
+    }
+
+    .conditions .working-conditions.subparagraph-edit {
+        color: #445963;
+    }
+
+    .conditions .conditions-left {
+        width: 435px;
+    }
+
+    .conditions .conditions-right {
+        width: 234px;
+    }
+
+    .conditions .conditions-left-edit {
+        width: 100%;
+    }
+
+    .conditions .conditions-right .subparagraph,
+    .conditions .conditions-left .subparagraph {
+        margin-top: 20px;
+
+    }
+
+    .conditions .conditions-right ul,
+    .conditions .conditions-left ul {
+        margin-top: 5px;
+    }
+
+    .conditions .conditions-right ul li,
+    .conditions .conditions-left ul li {
+    }
+
+    .conditions .number {
+        margin-top: 8px;
+
+        color: #000;
+    }
+
+    .conditions .number-edit {
+        margin-top: 15px;
+    }
+
+    .conditions .number span {
+    }
+
+    .review-form .feedback {
+        margin-bottom: 10px;
+
+    }
+
+    .review-form .feedback span {
+    }
+
+    .review-form .wr-input p {
+        margin: 15px 0px 5px;
+
+    }
+
+    .review-form textarea {
+        margin-top: 0px;
+        height: 73px;
+        width: 327px;
+    }
+
+    .review-form .wr-input-edit {
+        text-align: center;
+    }
+
+    .review-form .wr-input-edit p {
+        text-align: left;
+    }
+
+    .review-form input[type="submit"] {
+        margin: 36px 0px 0px 0px;
+    }
+
+    /*-----Условия Работы-----*/
+    /*Отзывы*/
+    .reviews h2 {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+
+    .reviews .content-left {
+        width: 100%;
+    }
+
+    .reviews .content-left .all-reviews .item + .item {
+        margin-top: 45px;
+    }
+
+    .reviews .content-left .all-reviews .item .content {
+        width: 604px;
+    }
+
+    .reviews .content-left .all-reviews .item .name-date {
+        width: 599px;
+        margin-left: 30px;
+        margin-bottom: 25px;
+    }
+
+    .reviews .content-left .all-reviews .item .text {
+        margin-left: 30px;
+        width: 599px;
+    }
+
+    .reviews .content-left .wr-pagination {
+        margin-top: 40px;
+    }
+
+    .reviews form {
+        display: none;
+    }
+
+    /*-----Отзывы-----*/
+    /*Отзыв*/
+    .wr-customer-reviews {
+        padding-top: 35px;
+    }
+
+    .wr-customer-reviews h2 {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .wr-customer-reviews .slider_reviews .item .item-top {
+        margin-bottom: 20px;
+    }
+
+    .wr-customer-reviews .slider_reviews .item .item-top img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .wr-customer-reviews .slider_reviews .item .wr-text .text {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .wr-customer-reviews .slider_reviews .item .wr-text .text span {
+        font-size: 24px;
+    }
+
+    .wr-customer-reviews .wr-read-all .read-all {
+        height: 34px;
+        width: 225px;
+
+    }
+
+    .slick-next:before {
+        content: '';
+        display: block;
+        width: 9px;
+        height: 18px;
+        position: relative;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/arrow-right.png") no-repeat right;
+        background-size: 9px;
+    }
+
+    .slick-prev:before {
+        content: '';
+        display: block;
+        width: 9px;
+        height: 18px;
+        position: relative;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/arrow-left.png") no-repeat right;
+        background-size: 9px;
+    }
+
+    .slick-prev {
+        left: -33px;
+        top: 110px;
+    }
+
+    .slick-next {
+        right: -33px;
+        top: 110px;
+    }
+
+    .wr-customer-reviews .slider_reviews.tablet_slider_reviews {
+        display: block;
+    }
+
+    .wr-customer-reviews .slider_reviews.desktop_slider_reviews {
+        display: none;
+    }
+
+    /*-----Отзыв-----*/
+    /*Maintaxi*/
+    .maintaxi {
+        position: relative;
+        display: inline-block;
+        width: inherit;
+        vertical-align: top;
+    }
+
+    .maintaxi .wr-city,
+    .maintaxi h2 {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .maintaxi .wr-city {
+        position: relative;
+        float: right;
+        margin-top: 10px;
+    }
+
+    .maintaxi .wr-city .maintaxi-city {
+        padding-left: 25px;
+
+        color: #000;
+        letter-spacing: 0.75px;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/icon3.png") no-repeat 0px 2px;
+        cursor: pointer;
+    }
+
+    .maintaxi .wr-city .maintaxi-city span {
+        padding-bottom: 3px;
+        border-bottom: 1px dashed #A0A0A0;
+        transition: 0s;
+    }
+
+    .maintaxi .wr-city .maintaxi-city span:hover {
+        border-bottom: 1px dashed transparent;
+    }
+
+    .maintaxi .wr-city .maintaxi-another-city.active {
+        display: block;
+    }
+
+    .maintaxi .wr-city .maintaxi-another-city {
+        display: none;
+        position: absolute;
+        left: -110px;
+        top: 29px;
+        width: 115px;
+        height: 32px;
+
+        color: #000;
+        letter-spacing: 0.75px;
+        border: 1px solid #9C9C9C;
+        background-color: #fff;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .maintaxi .wr-city .maintaxi-another-city:hover {
+        border-color: #FEC006;
+        background: #eee;
+    }
+
+    .maintaxi form {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 30px 60px;
+        vertical-align: top;
+        border: 1px solid #949494;
+        width: 602px;
+        border-radius: 10px;
+    }
+
+    .maintaxi .way {
+        display: inline-block;
+        padding: 0px 20px;
+        margin-bottom: 15px;
+        width: 512px;
+        height: 40px;
+
+        color: #8b8787;
+        border-radius: 5px;
+        vertical-align: top;
+        border: 1px solid #ACACAC;
+    }
+
+    .maintaxi .close {
+        display: inline-block;
+        margin-top: 6px;
+        margin-left: 13px;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .maintaxi .close:hover {
+        opacity: 0.5;
+    }
+
+    .maintaxi .wr-checkbox {
+        margin-bottom: 20px;
+    }
+
+    .maintaxi .add-address {
+        display: inline-block;
+
+        color: #000;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .maintaxi .add-address span {
+        padding-bottom: 3px;
+        border-bottom: 1px dashed #A0A0A0;
+    }
+
+    .maintaxi .add-address span:hover {
+        border-bottom: 1px dashed transparent;
+    }
+
+    .maintaxi .wr-label {
+        display: inline-block;
+        margin-left: 110px;
+        vertical-align: top;
+    }
+
+    .maintaxi .wr-label input[type="checkbox"] {
+        display: none;
+    }
+
+    .maintaxi .wr-label input[type="checkbox"] + label {
+        margin-bottom: 10px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .maintaxi .wr-label input[type="checkbox"] + span {
+        display: inline-block;
+        margin-top: 5px;
+        width: 14px;
+        height: 14px;
+        vertical-align: top;
+        cursor: pointer;
+        border-radius: 3px;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/off.png") no-repeat;
+    }
+
+    .maintaxi .wr-label input[type="checkbox"]:checked + span {
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/on.png") no-repeat;
+    }
+
+    .maintaxi .wr-label label p {
+        display: inline-block;
+        margin-left: 11px;
+        padding-bottom: 3px;
+        border-bottom: 1px dashed #A0A0A0;
+
+        color: #000;
+        vertical-align: middle;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .maintaxi .wr-label label p:hover {
+        border-bottom: 1px dashed transparent;
+    }
+
+    .maintaxi select {
+        padding: 0px 24px 0px 15px;
+        width: 195px;
+        height: 40px;
+
+        color: #000;
+        border-radius: 5px;
+        vertical-align: top;
+        border: 1px solid #ACACAC;
+        letter-spacing: 0.75px;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/arrow-bottom-edit.png") no-repeat 173px 17px;
+        outline: none;
+    }
+
+    .maintaxi select + select {
+        margin-left: 4px;
+    }
+
+    .maintaxi select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+
+    .maintaxi .data-on {
+        margin-top: 15px;
+        padding: 0px 15px;
+        width: 163px;
+        height: 40px;
+
+        color: #8b8787;
+        border-radius: 5px;
+        border: 1px solid #ACACAC;
+    }
+
+    .maintaxi .data-on + .data-on {
+        margin-left: 4px;
+    }
+
+    .maintaxi .comment {
+        margin: 15px 0px 20px;
+        padding: 0px 15px;
+        width: 569px;
+        height: 40px;
+
+        color: #8b8787;
+        border-radius: 5px;
+        border: 1px solid #ACACAC;
+    }
+
+    .maintaxi .calculation {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .maintaxi .calculation .wr-label {
+        display: block;
+        margin: 0px;
+    }
+
+    .maintaxi .calculation .wr-label + .wr-label {
+        margin-top: 3px;
+    }
+
+    .maintaxi .calculation .wr-label input[type="checkbox"] {
+        display: none;
+    }
+
+    .maintaxi .calculation .wr-label input[type="checkbox"] + label {
+        margin-bottom: 10px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .maintaxi .calculation .wr-label input[type="checkbox"] + span {
+        display: inline-block;
+        margin-top: 5px;
+        width: 14px;
+        height: 14px;
+        vertical-align: top;
+        cursor: pointer;
+        border-radius: 3px;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/off.png") no-repeat;
+    }
+
+    .maintaxi .calculation .wr-label input[type="checkbox"]:checked + span {
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/on.png") no-repeat;
+    }
+
+    .maintaxi .calculation .wr-label label p {
+        display: inline-block;
+        margin-left: 11px;
+        padding: 0px;
+        border: 1px solid transparent;
+
+        color: #000;
+        vertical-align: middle;
+        cursor: pointer;
+        letter-spacing: 0.75px;
+    }
+
+    .maintaxi .calculation .wr-label .interrogative {
+    }
+
+    .maintaxi input[type="submit"] {
+        margin-left: 40px;
+        padding-left: 40px;
+        width: 260px;
+        height: 47px;
+
+        color: #000;
+        letter-spacing: 0.75px;
+        background: #FABD06 url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/icon19.png") no-repeat 21px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0px 2px 7px -1px rgba(0, 0, 0, 0.6);
+    }
+
+    .maintaxi input[type="submit"]:hover {
+        background: #E79300 url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/icon19.png") no-repeat 28px;
+        color: #fff;
+    }
+
+    .maintaxi .acceptance-payments img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .maintaxi .acceptance-payments {
+        margin-top: 25px;
+    }
+
+    .maintaxi .acceptance-payments img + img {
+        margin-left: 5px;
+    }
+
+    .maintaxi .help {
+        float: right;
+        margin-top: 20px;
+        font: 14px "OpenSansExtraBold";
+        color: #000;
+    }
+
+    .maintaxi .help a {
+        margin-right: 8px;
+        padding-bottom: 2px;
+
+        color: #5b5858;
+        border-bottom: 1px dashed #5b5858;
+    }
+
+    .maintaxi .help a:hover {
+        border-bottom: 1px dashed transparent;
+    }
+
+    .maintaxi .sale {
+        position: absolute;
+        top: 90px;
+        left: -42px;
+        width: 105px;
+    }
+
+    .main-news {
+        position: relative;
+        float: none;
+        margin-top: 17px;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .main-news .wr-scroll {
+        overflow-x: none;
+        height: 175px;
+    }
+
+    .main-news .wr-scroll:hover {
+        overflow-x: auto;
+    }
+
+    .main-news .wr-news {
+        position: relative;
+        right: 10px;
+        padding: 10px;
+        width: 150%;
+        height: 137px;
+        overflow-y: hidden;
+        text-align: left;
+    }
+
+    .main-news::after {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        content: '';
+        z-index: 1;
+        width: 50px;
+        height: 100%;
+        background: linear-gradient(to right, #fff, transparent);
+    }
+
+    .main-news::before {
+        position: absolute;
+        top: 0px;
+        left: auto;
+        right: 0px;
+        z-index: 1;
+        content: '';
+        width: 50px;
+        height: 100%;
+        background: linear-gradient(to right, transparent, #fff);
+    }
+
+    .main-news:hover::after,
+    .main-news:hover::before {
+        display: none;
+    }
+
+    .main-news h2 {
+        margin-bottom: 10px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .main-news .item {
+        display: inline-block;
+        padding-right: 15px;
+        width: 240px;
+        min-height: 137px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+
+    .main-news .item img:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+    }
+
+    .main-news .item + .item {
+        margin-top: 0;
+    }
+
+    .main-news .item img {
+        display: block;
+        width: 240px;
+        height: 137px;
+        border-radius: 10px;
+    }
+
+    .wr-social,
+    .vidjet {
+        display: inline-block;
+        margin-top: 20px;
+        vertical-align: top;
+    }
+
+    .vidjet .vk_groupsw {
+        width: 355px !important;
+        height: 250px !important;
+    }
+
+    .vk_groupsw {
+        width: 350px !important;
+    }
+
+    .wr-social {
+        margin-left: 15px;
+        padding: 31px 20px 30px;
+        width: 309px;
+        background-color: #E2E2DA;
+        text-align: center;
+    }
+
+    .wr-social p {
+
+        color: #000;
+        letter-spacing: 0.75px;
+    }
+
+    .wr-social .social {
+        display: inline-block;
+        margin: 20px 0px 7px;
+    }
+
+    .wr-social .social img {
+        float: left;
+        width: 50px;
+        height: 50px;
+        transition: all 0.5s;
+    }
+
+    .wr-social .social img:hover {
+        opacity: 0.5;
+    }
+
+    .wr-social .sale {
+
+        color: #000;
+    }
+
+    .wr-social .sale span {
+    }
+
+    .additional-services,
+    .about-prices,
+    .customers-appreciate {
+        margin-top: 45px;
+        padding: 30px 0px 0px;
+
+    }
+
+    .customers-appreciate {
+        padding-bottom: 20px;
+    }
+
+    .additional-services {
+        margin-top: 20px;
+    }
+
+    .additional-services h2,
+    .about-prices h2,
+    .customers-appreciate h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .additional-services .additional-services-item,
+    .customers-appreciate .customers-appreciate-item {
+        display: inline-block;
+        margin-left: 19px;
+        margin-bottom: 20px;
+        width: 163px;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    .additional-services .additional-services-item {
+        margin-bottom: 0px;
+    }
+
+    .additional-services .additional-services-item.first-child,
+    .customers-appreciate .customers-appreciate-item.first-child {
+        margin-left: 0px;
+    }
+
+    .additional-services .additional-services-item .wr-icon,
+    .customers-appreciate .customers-appreciate-item .wr-icon {
+        display: inline-block;
+        width: 61px;
+        line-height: 61px;
+    }
+
+    .additional-services .additional-services-item .wr-icon img,
+    .customers-appreciate .customers-appreciate-item .wr-icon img {
+        max-width: 72px;
+        max-height: 72px;
+        vertical-align: middle;
+    }
+
+    .additional-services .additional-services-item .item-content,
+    .customers-appreciate .customers-appreciate-item .item-content {
+        margin-top: 0px;
+    }
+
+    .additional-services .additional-services-item .item-content .name,
+    .customers-appreciate .customers-appreciate-item .item-content .name {
+        margin-bottom: 8px;
+
+        color: #415660;
+        letter-spacing: 0.75px;
+    }
+
+    .additional-services .additional-services-item .item-content .text,
+    .about-prices .about-prices-item .item-content p,
+    .customers-appreciate .customers-appreciate-item .item-content .text {
+
+        color: #202020;
+        letter-spacing: 0.75px;
+    }
+
+    .additional-services .additional-services-item .item-content .text span {
+    }
+
+    .about-prices {
+        margin-top: 0px;
+    }
+
+    .about-prices .about-prices-submit {
+        width: 175px;
+        height: 32px;
+
+    }
+
+    .about-prices .about-prices-item {
+        display: inline-block;
+        margin-bottom: 25px;
+        width: 210px;
+        vertical-align: top;
+        text-align: left;
+    }
+
+    .about-prices .about-prices-item + .about-prices-item {
+        margin-left: 42px;
+    }
+
+    .about-prices .about-prices-item:nth-child(3n+2) {
+        margin-left: 0px;
+    }
+
+    .about-prices .about-prices-item .wr-icon {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .about-prices .about-prices-item .wr-icon p,
+    .about-prices .about-prices-item .wr-icon img {
+        display: inline-block;
+    }
+
+    .about-prices .about-prices-item .wr-icon img {
+        max-width: 41px;
+        max-height: 41px;
+    }
+
+    .about-prices .about-prices-item .wr-icon p {
+        margin-top: 35px;
+        margin-left: 5px;
+
+        color: #415660;
+    }
+
+    .about-prices .about-prices-item .wr-icon p span {
+        font: 22px "OpenSansBold";
+    }
+
+    .about-prices .about-prices-item .item-content br {
+        display: none;
+    }
+
+    .additional-services .additional-services-item {
+        width: 168px;
+        margin-left: 13px;
+    }
+
+    /*-----Maintaxi-----*/
+    /*Цены на такси*/
+    .prices h2 {
+        font-size: 18px;
+    }
+
+    .price-taxi {
+        margin-top: 30px;
+    }
+
+    .price-taxi .table-top .service {
+        width: 515px;
+    }
+
+    .price-taxi .table-top .price {
+        width: 208px;
+    }
+
+    .price-taxi .table-top td {
+        padding: 15px 0px;
+
+    }
+
+    .price-taxi td {
+    }
+
+    .price-taxi .price-edit {
+    }
+
+    .prices ul {
+        margin-top: 25px;
+    }
+
+    /*-----Цены на такси-----*/
+    /*Личный кабинет*/
+    .personal-account h2 {
+        font-size: 18px;
+    }
+
+    /*-----Личный кабинет-----*/
+    /*Новости*/
+    .news h2 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .news .item-news {
+        margin: 10px 0px 0px 10px;
+        width: 342px;
+    }
+
+    .news .item-news img {
+        width: 100%;
+    }
+
+    /*-----Новости-----*/
+    /*Корпаративным клиентам*/
+    .corporate {
+        min-height: 190px;
+    }
+
+    .corporate h2 {
+        font-size: 18px;
+    }
+
+    .corporate p {
+        font-size: 14px;
+    }
+
+    /*-----Корпаративным клиентам-----*/
+    /*Контакты*/
+    .contacts {
+        padding-bottom: 45px;
+    }
+
+    .contacts h2 {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .contacts .contacts-left {
+        float: inherit;
+        width: 100%;
+    }
+
+    .contacts .contacts-left .item + .item {
+        margin: 0px 0px 0px 90px;
+    }
+
+    .contacts .contacts-left .item,
+    .contacts .contacts-left .item {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .contacts .contacts-right {
+        float: inherit;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .contacts .contacts-right .maps {
+        width: 100%;
+        height: 240px;
+    }
+
+    /*-----Контакты-----*/
+
+
+}
+
+
+@media screen and (max-width: 795px) {
+
+    /*Преимущества*/
+    .advantages {
+        padding-bottom: 30px;
+    }
+
+    .advantages h2 {
+        font-size: 14px;
+    }
+
+    .advantages .item {
+        margin: 30px 0px 0px 15px;
+        width: 72px;
+    }
+
+    .advantages .item.first-child {
+        margin-left: 0px;
+        width: 78px;
+    }
+
+    .advantages .item .wr-icon {
+        margin-bottom: 6px;
+        height: 42px;
+        line-height: 42px;
+    }
+
+    .advantages .item .wr-icon img {
+        max-width: 42px;
+        max-height: 42px;
+    }
+
+    .advantages .item p {
+    }
+
+    /*-----Преимущества-----*/
+    /*Вакансия*/
+    .vacancy {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .vacancy h2 {
+        padding: 25px 0px 20px;
+        font-size: 14px;
+    }
+
+    .vacancy .item {
+        padding: 20px 10px 25px;
+        width: 194.9px;
+        border: 1px solid #949494;
+    }
+
+    .vacancy .item + .item {
+        margin-left: 5px;
+    }
+
+    .vacancy .item .wr-icon img {
+        max-width: 56px;
+        max-height: 56px;
+    }
+
+    .vacancy .item .name-vacancy {
+        margin: 6px 0px 10px;
+        font: 16px/26px "OpenSansBold";
+    }
+
+    .vacancy .item.first-child .demands {
+        min-height: 207px;
+    }
+
+    .vacancy .item .demands {
+        min-height: 233px;
+    }
+
+    .vacancy .item .demands p {
+    }
+
+    .vacancy .item .demands p + p {
+        margin-top: 7px;
+    }
+
+    .vacancy .item .details {
+        height: 36px;
+        width: 182px;
+
+    }
+
+    .vacancy .item:last-child {
+        margin: 12px 0px 0px 0px;
+    }
+
+    /*-----Вакансия-----*/
+    /*Заявка*/
+    .application {
+        padding: 25px 0px 0px;
+        text-align: center;
+    }
+
+    .application .pc-text {
+        display: none;
+    }
+
+    .application h2 {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .application p {
+        display: none;
+        margin-top: 7px;
+
+    }
+
+    .application .mob-text {
+        display: block;
+    }
+
+    .application .wr-input select {
+        margin: 20px 0px 25px;
+        float: left;
+    }
+
+    .application .wr-input {
+        width: 100%;
+    }
+
+    .application .wr-input + .wr-input {
+        margin: 17px 0px 0px 0px;
+    }
+
+    .application .wr-input.wr-input-edit {
+        margin-top: 17px;
+    }
+
+    .application .wr-input input[type="text"] {
+        padding: 0px 18px;
+        width: 405px;
+        height: 27px;
+
+    }
+
+    .application .wr-input input[type="text"] + input[type="text"] {
+        margin-top: 17px;
+    }
+
+    .application .wr-input .input-edit {
+        font-size: 11px !important;
+        width: 173.9px !important;
+    }
+
+    .application .wr-input .input-edit + .input-edit {
+        margin-left: 15px !important;
+    }
+
+    .application .wr-input .wr-checkbox {
+        margin: 12px 0px 15px;
+        text-align: left;
+    }
+
+    .application .wr-input .wr-checkbox-edit {
+        margin: 12px 0px 15px;
+    }
+
+    .application .wr-input .wr-checkbox-edit .wr-label-edit {
+        margin-left: 21px;
+    }
+
+    .application .wr-input .wr-label + .wr-label {
+        margin-top: 0px;
+    }
+
+    .application .wr-input input[type="checkbox"] + label {
+        margin-bottom: 10px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .application .wr-input input[type="checkbox"] + span {
+        width: 12px;
+        height: 12px;
+        background-size: 11px;
+    }
+
+    .application .wr-input input[type="checkbox"]:checked + span {
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/on.png") no-repeat;
+        background-size: 11px;
+    }
+
+    .application .wr-input label p {
+        margin-left: 6px;
+
+    }
+
+    .application textarea {
+        margin-top: 17px;
+        padding: 10px 18px;
+        width: 405px;
+        height: 65px;
+
+    }
+
+    .application input[type="submit"] {
+        margin: 30px 0px 0px 0px;
+        height: 30px;
+        width: 155px;
+
+    }
+
+    .review-form {
+        padding: 0px 0px 35px;
+    }
+
+    .review-form h2 {
+        margin-bottom: 10px;
+    }
+
+    .review-form p {
+        margin: 13px 0px 4px;
+    }
+
+    .review-form .feedback span {
+        display: block;
+        width: 505px;
+
+    }
+
+    .review-form .feedback {
+        margin-bottom: 10px;
+
+    }
+
+    .review-form textarea {
+        padding: 10px;
+        margin-top: 6px;
+        height: 60px;
+        width: 329px;
+    }
+
+    .review-form input[type="submit"] {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .wr-customer-reviews {
+        padding-top: 25px;
+    }
+
+    .wr-customer-reviews h2 {
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .wr-customer-reviews .slider_reviews.mobile_slider_reviews {
+        display: block;
+        margin: 0 auto;
+        width: 370px;
+    }
+
+    .wr-customer-reviews .slider_reviews.tablet_slider_reviews {
+        display: none;
+    }
+
+    .wr-customer-reviews .slider_reviews .item .item-top .name-date {
+        width: 235px;
+    }
+
+    .wr-customer-reviews .slider_reviews .item .item-top .name-date .name {
+        float: left;
+    }
+
+    .wr-customer-reviews .slider_reviews .item .item-top .name-date .date {
+        float: right;
+        margin-top: 2px;
+    }
+
+    .wr-customer-reviews .slider_reviews .item {
+        display: inline-block;
+        margin: 0 17px;
+        width: 355px;
+        vertical-align: top;
+    }
+
+    .wr-customer-reviews .wr-read-all .read-all {
+        margin-top: 30px;
+    }
+
+    .application-contacts p {
+        margin-top: 10px;;
+    }
+
+    .application-contacts .wr-input.wr-input-edit {
+        margin-top: 0px;
+    }
+
+    .application-contacts .wr-input input[type="text"] {
+        width: 407px;
+        height: 40px;
+
+    }
+
+    .application-contacts textarea {
+        padding: 10px 20px;
+        margin-top: 0px;
+        width: 403px;
+        height: 114px;
+
+    }
+
+    .application-contacts input[type="submit"] {
+        margin: 30px 0px 0px 0px;
+        width: 208px;
+        height: 40px;
+
+    }
+
+    .application-contacts p {
+        display: block;
+    }
+
+    /*-----Заявка-----*/
+    /*Условия Работы*/
+    .conditions {
+        padding-bottom: 20px;
+    }
+
+    .conditions h2 {
+        font-size: 14px;
+    }
+
+    .conditions .working-conditions {
+        margin-top: 17px;
+
+        color: #425761;
+    }
+
+    .conditions .working-conditions-edit {
+        margin-top: 15px;
+
+        color: #000;
+    }
+
+    .conditions .conditions-left {
+        width: 435px;
+    }
+
+    .conditions .conditions-right {
+        width: 100%;
+    }
+
+    .conditions .conditions-left-edit {
+        width: 100%;
+    }
+
+    .conditions .conditions-right .subparagraph,
+    .conditions .conditions-left .subparagraph {
+        margin-top: 15px;
+
+    }
+
+    .conditions .conditions-right .subparagraph {
+        margin-top: 17px;
+    }
+
+    .conditions .conditions-right ul,
+    .conditions .conditions-left ul {
+        margin-top: 5px;
+    }
+
+    .conditions .conditions-right ul li,
+    .conditions .conditions-left ul li {
+    }
+
+    .conditions .number {
+        margin-top: 8px;
+        font: 12px/20px "OpenSansBold";
+        color: #000;
+    }
+
+    .conditions .number br {
+        display: none;
+    }
+
+    .conditions .number-edit {
+        margin-top: 10px;
+    }
+
+    .conditions .number span {
+    }
+
+    .review-form .feedback span {
+        width: inherit;
+
+    }
+
+    .review-form .wr-input p {
+        display: block;
+        text-align: left;
+        margin: 15px 0px 5px;
+
+    }
+
+    .review-form textarea {
+        margin-top: 0px;
+        height: 63px;
+        width: 419px;
+    }
+
+    .review-form .wr-input.wr-input-edit {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .review-form .wr-input-edit p {
+        text-align: left;
+    }
+
+    .review-form input[type="submit"] {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .application .feedback {
+        display: block;
+        margin-bottom: 22px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .application-contacts .feedback {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .review-form .feedback {
+        margin-bottom: 0px;
+
+    }
+
+    /*-----Условия Работы-----*/
+    /*Отзывы*/
+    .reviews h2 {
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .reviews .content-left {
+        width: 100%;
+    }
+
+    .reviews .content-left .all-reviews .item img {
+        display: block;
+        width: 61px;
+        height: 61px;
+    }
+
+    .reviews .content-left .all-reviews .item + .item {
+        margin-top: 20px;
+    }
+
+    .reviews .content-left .all-reviews .item + .item + .item + .item + .item {
+        display: none;
+    }
+
+    .reviews .content-left .all-reviews .item .name-date {
+        width: 364px;
+        margin-left: 18px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .reviews .content-left .all-reviews .item .name-date .date,
+    .reviews .content-left .all-reviews .item .name-date .name {
+        font-size: 12px;
+    }
+
+    .reviews .content-left .all-reviews .item .text {
+        margin-top: 12px;
+        width: 442px;
+
+    }
+
+    .reviews .content-left .all-reviews .item .text .top,
+    .reviews .content-left .all-reviews .item .text .bottom {
+        font-size: 24px;
+    }
+
+    .reviews .content-left .wr-pagination {
+        margin-top: 25px;
+    }
+
+    .reviews form {
+        display: none;
+    }
+
+    /*-----Отзывы-----*/
+    /*Maintaxi*/
+    .maintaxi {
+        position: relative;
+        display: inline-block;
+        width: inherit;
+        vertical-align: top;
+    }
+
+    .wr-city {
+        z-index: 99999;
+    }
+
+    .maintaxi .wr-city,
+    .maintaxi h2 {
+        display: inline-block;
+        font-size: 16px;
+        vertical-align: top;
+    }
+
+    .maintaxi .wr-city {
+        position: relative;
+        float: right;
+        margin-top: 0px;
+    }
+
+    .maintaxi .wr-city .maintaxi-city {
+        padding-left: 25px;
+
+        color: #000;
+        letter-spacing: 0.75px;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/icon3.png") no-repeat 0px 2px;
+        cursor: pointer;
+    }
+
+    .maintaxi .wr-city .maintaxi-city span {
+        padding-bottom: 3px;
+        border-bottom: 1px dashed #A0A0A0;
+        transition: 0s;
+    }
+
+    .maintaxi .wr-city .maintaxi-city span:hover {
+        border-bottom: 1px dashed transparent;
+    }
+
+    .maintaxi .wr-city .maintaxi-another-city.active {
+        display: block;
+    }
+
+    .maintaxi .wr-city .maintaxi-another-city {
+        display: none;
+        position: absolute;
+        left: -110px;
+        top: 29px;
+        width: 115px;
+        height: 32px;
+
+        color: #000;
+        letter-spacing: 0.75px;
+        border: 1px solid #9C9C9C;
+        background-color: #fff;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .maintaxi .wr-city .maintaxi-another-city:hover {
+        border-color: #FEC006;
+        background: #eee;
+    }
+
+    .maintaxi form {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 25px 29px 0px;
+        vertical-align: top;
+        border: 1px solid #949494;
+        width: 383px;
+        border-radius: 10px;
+    }
+
+    .mob-download {
+        margin-top: 10px;
+    }
+
+    .maintaxi .way {
+        display: inline-block;
+        padding: 0px 20px;
+        margin-bottom: 15px;
+        width: 301px;
+        height: 38px;;
+        color: #8b8787;
+        border-radius: 5px;
+        vertical-align: top;
+        border: 1px solid #ACACAC;
+    }
+
+    .maintaxi .close {
+        display: inline-block;
+        margin-top: 6px;
+        margin-left: 5px;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .maintaxi .close:hover {
+        opacity: 0.5;
+    }
+
+    .maintaxi .wr-checkbox {
+        margin-bottom: 20px;
+    }
+
+    .maintaxi .add-address {
+        display: inline-block;
+
+        color: #000;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .maintaxi .add-address span {
+        font-size: 13px;
+        padding-bottom: 3px;
+        border-bottom: 1px dashed #A0A0A0;
+    }
+
+    .maintaxi .add-address span:hover {
+        border-bottom: 1px dashed transparent;
+    }
+
+    .maintaxi .wr-label {
+        display: inline-block;
+        margin-left: 110px;
+        vertical-align: top;
+    }
+
+    .maintaxi .wr-label input[type="checkbox"] {
+        display: none;
+    }
+
+    .maintaxi .wr-label input[type="checkbox"] + label {
+        margin-bottom: 10px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .maintaxi .wr-label input[type="checkbox"] + span {
+        display: inline-block;
+        margin-top: 5px;
+        width: 14px;
+        height: 14px;
+        vertical-align: top;
+        cursor: pointer;
+        border-radius: 3px;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/off.png") no-repeat;
+    }
+
+    .maintaxi .wr-label input[type="checkbox"]:checked + span {
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/on.png") no-repeat;
+    }
+
+    .maintaxi .wr-label label p {
+        display: inline-block;
+        margin-left: 11px;
+        padding-bottom: 3px;
+
+
+        color: #000;
+        vertical-align: middle;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .maintaxi .wr-label label p:hover {
+        border-bottom: 1px dashed transparent;
+    }
+
+    .maintaxi .wr-input,
+    .maintaxi .wr-select {
+        text-align: center;
+    }
+
+    .maintaxi select {
+        padding: 0px 22px 0px 15px;
+        width: 186px;
+        height: 38px;
+
+        color: #000;
+        border-radius: 5px;
+        vertical-align: top;
+        border: 1px solid #ACACAC;
+        letter-spacing: 0.75px;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/arrow-bottom-edit.png") no-repeat 165px 17px;
+        outline: none;
+    }
+
+    .maintaxi select + select {
+        margin-left: 5px;
+    }
+
+    .maintaxi .wr-input .data-on:last-child,
+    .maintaxi select:last-child {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .maintaxi select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+
+    .maintaxi .data-on {
+        margin-top: 15px;
+        padding: 0px 15px;
+        width: 154px;
+        height: 38px;
+
+        color: #8b8787;
+        border-radius: 5px;
+        border: 1px solid #ACACAC;
+    }
+
+    .maintaxi .data-on + .data-on {
+        margin-left: 5px;
+    }
+
+    .maintaxi .comment {
+        margin: 15px 0px 20px;
+        padding: 0px 15px;
+        width: 351px;
+        height: 38px;
+
+        color: #8b8787;
+        border-radius: 5px;
+        border: 1px solid #ACACAC;
+    }
+
+    .maintaxi .calculation {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .maintaxi .calculation .wr-label {
+        display: block;
+        margin: 0px;
+    }
+
+    .maintaxi .calculation .wr-label + .wr-label {
+        margin-top: 3px;
+    }
+
+    .maintaxi .calculation .wr-label input[type="checkbox"] {
+        display: none;
+    }
+
+    .maintaxi .calculation .wr-label input[type="checkbox"] + label {
+        margin-bottom: 10px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .maintaxi .calculation .wr-label input[type="checkbox"] + span {
+        display: inline-block;
+        margin-top: 7px;
+        width: 14px;
+        height: 14px;
+        vertical-align: top;
+        cursor: pointer;
+        border-radius: 3px;
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/off.png") no-repeat;
+    }
+
+    .maintaxi .calculation .wr-label input[type="checkbox"]:checked + span {
+        background: url("http://www.xn----7sbb4abjlgqksjh.xn--p1ai/css/../images/on.png") no-repeat;
+    }
+
+    .maintaxi .calculation .wr-label label p {
+        display: inline-block;
+        margin-left: 11px;
+        padding: 0px;
+        border: 1px solid transparent;
+
+        color: #000;
+        vertical-align: middle;
+        cursor: pointer;
+        letter-spacing: 0.75px;
+    }
+
+    .maintaxi .acceptance-payments img {
+        display: inline-block;
+        max-width: 60px;
+        max-height: 18px;
+        vertical-align: middle;
+    }
+
+    .maintaxi .acceptance-payments {
+        margin-top: 25px;
+    }
+
+    .maintaxi .acceptance-payments img + img {
+        margin-left: 2px;
+    }
+
+    .maintaxi .help {
+        position: relative;
+        top: -87px;
+        left: 306px;
+        display: inline-block;
+        float: inherit;
+        margin-top: 20px;
+        font: 13px "OpenSansExtraBold";
+        color: #000;
+    }
+
+    .maintaxi .help a {
+        margin-right: 8px;
+        padding-bottom: 2px;
+
+        color: #5b5858;
+        border-bottom: 1px dashed #5b5858;
+    }
+
+    .maintaxi .help a:hover {
+        border-bottom: 1px dashed transparent;
+    }
+
+    .maintaxi .sale {
+        position: absolute;
+        top: 45px;
+        left: -30px;
+        width: 110px;
+    }
+
+    .main-news {
+        position: relative;
+        float: none;
+        margin-top: 17px;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .main-news .wr-scroll {
+        overflow-x: none;
+        height: 120px;
+    }
+
+    .main-news .wr-scroll:hover {
+        overflow-x: auto;
+    }
+
+    .main-news .wr-news {
+        position: relative;
+        right: 10px;
+        padding: 10px;
+        width: 200%;
+        height: 83px;
+        overflow-y: hidden;
+        text-align: left;
+    }
+
+    .main-news::after {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        content: '';
+        z-index: 1;
+        width: 30px;
+        height: 100%;
+        background: linear-gradient(to right, #fff, transparent);
+    }
+
+    .main-news::before {
+        position: absolute;
+        top: 0px;
+        left: auto;
+        right: 0px;
+        z-index: 1;
+        content: '';
+        width: 30px;
+        height: 100%;
+        background: linear-gradient(to right, transparent, #fff);
+    }
+
+    .main-news:hover::after,
+    .main-news:hover::before {
+        display: none;
+    }
+
+    .main-news h2 {
+        margin-bottom: 10px;
+        margin-left: 25px;
+
+    }
+
+    .main-news .item {
+        display: inline-block;
+        padding-right: 10px;
+        width: 148px;
+        min-height: 83px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .main-news .item img:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+    }
+
+    .main-news .item + .item {
+        margin-top: 0;
+    }
+
+    .main-news .item img {
+        display: block;
+        width: 148px;
+        height: 83px;
+        border-radius: 5px;
+    }
+
+    .wr-social,
+    .vidjet {
+        display: inline-block;
+        width: 441px;
+        margin-top: 0px;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    .wr-social {
+        margin-top: 10px;
+        margin-left: 43px;
+        padding: 35px 20px;
+        width: 315px;
+        background-color: #E2E2DA;
+        text-align: center;
+    }
+
+    .wr-social p {
+
+        color: #000;
+        letter-spacing: 0.75px;
+    }
+
+    .wr-social .social {
+        display: inline-block;
+        margin: 24px 0px 10px;
+    }
+
+    .wr-social .social img {
+        float: left;
+        transition: all 0.5s;
+    }
+
+    .wr-social .social img:hover {
+        opacity: 0.5;
+    }
+
+    .wr-social .sale {
+
+        color: #000;
+    }
+
+    .wr-social .sale span {
+    }
+
+    .additional-services,
+    .about-prices,
+    .customers-appreciate {
+        margin-top: 30px;
+        padding: 25px 0px 0px;
+
+    }
+
+    .additional-services h2,
+    .about-prices h2,
+    .customers-appreciate h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about-prices h2 {
+        margin-bottom: 0px;
+    }
+
+    .additional-services .additional-services-item,
+    .customers-appreciate .customers-appreciate-item {
+        display: inline-block;
+        margin-left: 7px;
+        margin-bottom: 35px;
+        width: 102px;
+        width: 23%;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    .additional-services .additional-services-item {
+        margin-bottom: 0px;
+    }
+
+    .additional-services .additional-services-item.first-child,
+    .customers-appreciate .customers-appreciate-item.first-child {
+        margin-left: 0px;
+    }
+
+    .additional-services .additional-services-item .wr-icon,
+    .customers-appreciate .customers-appreciate-item .wr-icon {
+        display: inline-block;
+        /*width: 24px;
+        line-height: 24px;*/
+    }
+
+    .additional-services .additional-services-item .wr-icon img,
+    .customers-appreciate .customers-appreciate-item .wr-icon img {
+        /*max-width: 24px;
+        min-height: 15px;*/
+        vertical-align: middle;
+    }
+
+    .additional-services .additional-services-item .item-content,
+    .customers-appreciate .customers-appreciate-item .item-content {
+        margin-top: 10px;
+    }
+
+    .additional-services .additional-services-item .item-content .name,
+    .customers-appreciate .customers-appreciate-item .item-content .name {
+        margin-bottom: 5px;
+        font-size: 2.5vw;
+        color: #415660;
+        letter-spacing: 0.75px;
+    }
+
+    .additional-services .additional-services-item .item-content .text,
+    .about-prices .about-prices-item .item-content p,
+    .customers-appreciate .customers-appreciate-item .item-content .text {
+
+        color: #202020;
+        letter-spacing: 0.75px;
+    }
+
+    .additional-services .additional-services-item .item-content .text span {
+    }
+
+    .about-prices {
+        margin-top: 0px;
+    }
+
+    .about-prices .about-prices-item {
+        display: inline-block;
+        margin-bottom: 0px;
+        width: 115px;
+        vertical-align: bottom;
+        text-align: left;
+    }
+
+    .about-prices .about-prices-item + .about-prices-item {
+        margin-left: 44px;
+    }
+
+    .about-prices .about-prices-item:nth-child(3n+2) {
+        margin-left: 0px;
+    }
+
+    .about-prices .about-prices-item .wr-icon {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .about-prices .about-prices-item .wr-icon p,
+    .about-prices .about-prices-item .wr-icon img {
+        display: inline-block;
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    .about-prices .about-prices-item .wr-icon p {
+        margin-top: 35px;
+        margin-left: 5px;
+
+        color: #415660;
+    }
+
+    .about-prices .about-prices-item .wr-icon p span {
+    }
+
+    .about-prices .about-prices-submit {
+        width: 120px;
+        height: 23px;
+
+    }
+
+    .additional-services .additional-services-item .wr-icon img {
+        /*	max-width: 24px;
+            max-height: 20px;*/
+    }
+
+    /*-----Maintaxi-----*/
+    /*Цены на такси*/
+    .price-taxi {
+        margin-top: 25px;
+    }
+
+    .price-taxi .table-top .service {
+        width: 555px;
+    }
+
+    .price-taxi .table-top .price {
+        width: 208px;
+    }
+
+    .price-taxi .table-top td {
+        padding: 15px 0px;
+
+    }
+
+    .price-taxi td {
+    }
+
+    .price-taxi .price-edit {
+    }
+
+    .prices ul {
+        margin-top: 20px;
+    }
+
+    .prices ul li {
+        font-size: 10px;
+    }
+
+    .prices ul li + li {
+        margin-top: 6px;
+    }
+
+    /*-----Цены на такси-----*/
+
+
+}
+
+@media screen and (max-width: 560px) {
+    .additional-services .additional-services-item, .customers-appreciate .customers-appreciate-item {
+        width: 260px;
+    }
+
+    .additional-services .additional-services-item .item-content .name, .customers-appreciate .customers-appreciate-item .item-content .name {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .advantages .item, .advantages .item.first-child {
+        width: 40%;
+        margin: 20px 0 0 20px;
+    }
+
+    .vacancy h2 {
+        padding: 25px 0 0 0;
+    }
+
+    .vacancy .item {
+        margin-top: 32px;
+        width: 220px;
+    }
+
+    .vacancy .item .demands {
+        min-height: 0px;
+    }
+
+    .vacancy .item + .item {
+        margin-left: 0px;
+    }
+
+    .vacancy .item:last-child {
+        margin-top: 32px;
+    }
+
+    .application .wr-input input[type="text"] {
+        width: 265px;
+        padding: 0 0 0 15px;
+    }
+
+    .application .wr-input .input-edit {
+        width: 265px !important;
+        padding: 0 0 0 15px;
+    }
+
+    .application .wr-input .input-edit + .input-edit {
+        margin-top: 17px !important;
+        margin-left: 0 !important;
+    }
+
+    .application .large-field {
+
+    }
+
+    .application .wr-input .wr-checkbox-edit .wr-label-edit {
+        margin-left: 0px;
+    }
+
+    .application textarea {
+        width: 244px;
+    }
+
+    #sedi-orderform2 {
+        min-width: 280px !important;
+    }
+
+    #sedi-orderform2-addaddress-container, #sedi-orderform2-rentcheckbox-container {
+        font-size: 9px !important;
+        width: 49% !important;
+    }
+
+    #sedi-orderform2 * {
+        font-size: 8px !important;
+    }
+
+    #sedi-orderform2 .sedi-orderform2-part-2third {
+        float: right !important;
+    }
+
+    #sedi-orderform2-fields {
+        padding: 18px 22px !important;
+    }
+
+    #sedi-orderform2-section-datetime, #sedi-orderform2-section-specs, #sedi-orderform2-customer-name, #sedi-orderform2-customer-phone {
+        width: 113px !important;
+    }
+
+    #sedi-orderform2-section-specs, #sedi-orderform2-customer-phone {
+        margin-left: 8px;
+    }
+
+    #sedi-orderform2-section-tariff, #sedi-orderform2-keyword-container {
+        width: 140px !important;
+        float: none !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    #sedi-orderform2-changeuser {
+        display: none !important;
+    }
+
+    #sedi-orderform2 .sedipaymentsystems img {
+        width: 19px !important;
+    }
+
+    .wr-social, .vidjet {
+        width: 280px;
+        border-radius: 5px;
+    }
+
+    .vidjet .vk_groupsw {
+        width: 280px !important;
+    }
+
+    .vk_groupsw iframe {
+        width: 280px !important;
+        border-radius: 5px;
+    }
+
+    .wcommunity_status {
+        display: none;
+    }
+
+    .wcommunity_wrap div {
+        width: 255px;
+    }
+
+    .wr-social {
+        margin-left: 0px;
+        width: 240px;
+        background-color: #415660;
+    }
+
+    .wr-social p, .wr-social .sale {
+        color: #fff;
+    }
+
+    .wr-social .social img {
+        width: 47px;
+        height: 47px;
+    }
+
+    .additional-services .additional-services-item, .customers-appreciate .customers-appreciate-item {
+        /*width: 49%;*/
+        margin-left: 0px;
+    }
+
+    .about-prices h2 {
+        text-align: left;
+    }
+
+    .about-prices .about-prices-item {
+        width: 49%;
+        text-align: center;
+    }
+
+    .about-prices .about-prices-item + .about-prices-item {
+        margin-left: 0px;
+    }
+
+    .wr-customer-reviews .slider_reviews.mobile_slider_reviews {
+        width: 280px;
+    }
+
+    .reviews .content-left .all-reviews .item .text {
+        width: 280px;
+    }
+
+    .additional-services h2, .about-prices h2, .customers-appreciate h2 {
+        font-size: 28px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+}
+
+.over-text-gleb .phone_light {
+    color: #000;
+}
+
+.over-text-gleb .phone_icon {
+    color: #000;
+    border: 2px solid #000;
+}
+
+
+body.bordered .order-form-frame {
+    background-color: #fff;
+    color: #333;
+    opacity: 1;
+}
+
+h1 {
+
+    font-size: 38px;
+
+    text-transform: initial;
+    margin-top: 10px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.phone {
+    margin-left: 10px;
+}
+
+.item-content-desc {
+    min-height: 140px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*begin всплывающий баннер*/
+#msg_pop {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    bottom: 30px;
+    /*left:30px;*/
+    width: 800px;
+    padding: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+    left: 50%;
+    margin: 0 -400px;
+    -webkit-box-shadow: 0px 0px 10px #999;
+    -moz-box-shadow: 0px 0px 10px #999;
+    box-shadow: 0px 0px 10px #999;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#msg_pop h4 {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+#msg_pop p {
+    text-align: center;
+    font-size: 15px;
+}
+
+#msg_pop p a {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+}
+
+.msg_close {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    line-height: 15px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.msg_close:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 0.4s;
+    -webkit-animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0.7);
+        opacity: 0.5;
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: scale(0.7);
+        opacity: 0.5;
+    }
+    80% {
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    #msg_pop {
+        display: none !important;
+    }
+}
+
+/*end всплывающий баннер*/

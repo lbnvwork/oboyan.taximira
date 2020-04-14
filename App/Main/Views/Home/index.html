@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Такси «Мира» в Обояни{% endblock %}
+
+{% block body %}
+<section id="intro">
+    <div id="nepokaz">
+        <img src="/assets/images/logo.png" alt="Логотип сервиса заказа такси «Мира»"/>
+    </div>
+    <div class="wrapper  cnt">
+        {% include 'Home/title.html' %}
+    </div>
+    {% include 'Home/banner.html' %}
+</section>
+<section id="order">
+    <h2>Заказ такси в Обояни</h2>
+    {% include 'Home/order.html' %}
+</section>
+<section id="services" class="otherr">
+    <div class="additional-services wrapper">
+        <h2>Наши услуги</h2>
+        {% include 'Home/services.html' %}
+    </div>
+</section>
+<section id="krasota">
+    <div class="customers-appreciate wrapper">
+        <h2>Наши клиенты ценят в нас</h2>
+        {% include 'Home/klients-love.html' %}
+    </div>
+</section>
+<section id="contacts" class="otherr">
+    <div class="wrapper">
+        <div class="additional-services">
+            <h2>Наши контакты</h2>
+        </div>
+        {% include 'Home/contacts.html' %}
+    </div>
+</section>
+{% endblock %}

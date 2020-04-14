@@ -1,0 +1,27 @@
+<header>
+    <div class="wrapper navigation container" id="navigation_top">
+        <div class="logo">
+            <a class="r1279" href="/"><img src="/assets/images/logo-mins2.png" alt="Logo Taxi MIRA"/></a>
+            <a class="r1280" href="/"><img src="/assets/images/logo_zel.png" alt="Logo Taxi MIRA"/></a>
+        </div>
+        <div class="highSize">
+            <nav>
+                <ul id="Mobmenu">
+                    {% for menuItem in mainMenu %}
+                    <li class="main-menu__item">
+                        <a href="/{{menuItem.value}}" class="Mobmenu__link">{{menuItem.caption}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+        <div class="phone">
+            <a href="tel:{{orderPhoneTel}}">
+                <span class="phone_icon text-orange icons">&#xe802;</span>
+                <span class="phone_light">
+                        <span class="sml">{{orderPhoneTop['leftPart']}}</span>{{orderPhoneTop['rightPart']}}
+                    </span>
+            </a>
+        </div>
+    </div>
+</header>
